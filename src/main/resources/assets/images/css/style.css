@@ -1,0 +1,88 @@
+/* General App Background */
+.root {
+    -fx-background-color: #F2E5F7; /* Light lavender background */
+}
+
+/* Style for the VBox (card item) */
+.vbox {
+    -fx-background-color: #D3B5E5; /* Light purple for card background */
+    -fx-padding: 15;
+    -fx-spacing: 8;
+    -fx-border-color: #9A77CF; /* Darker purple border */
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 2);
+}
+
+/* Style for the task label */
+.cart-task-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4A235A; /* Dark purple for text */
+}
+
+/* Style for the description label */
+.cart-description-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #5E3370; /* Medium purple for description text */
+}
+
+/* Style for the date label */
+.cart-date-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #7C4795; /* Light purple for dates */
+    -fx-font-style: italic;
+}
+
+/* Style for the checkbox */
+.cart-checkbox {
+    -fx-font-size: 14px;
+    -fx-text-fill: #4A235A; /* Dark purple for checkbox text */
+}
+
+/* Style for the ListView */
+.jfx-list-view {
+    -fx-background-color: #E5CCE6; /* Very light purple for ListView background */
+    -fx-border-color: #B38CBF;
+    -fx-border-width: 1;
+    -fx-padding: 5;
+}
+
+/* Style for the Add Button */
+.jfx-button {
+    -fx-background-color: #9A77CF; /* Purple for button */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.jfx-button:hover {
+    -fx-background-color: #7A56AC; /* Darker purple on hover */
+}
+
+/* Style for the Logout Button */
+.logout-button {
+    -fx-background-color: #E74C3C; /* Red for logout button */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.logout-button:hover {
+    -fx-background-color: #C0392B; /* Darker red on hover */
+}
+
+/* Style for the input fields */
+.text-field, .text-area, .combo-box, .date-picker {
+    -fx-font-size: 14px;
+    -fx-padding: 8;
+    -fx-background-color: #FFFFFF; /* White input field */
+    -fx-border-color: #9A77CF; /* Purple border */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}

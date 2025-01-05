@@ -49,7 +49,7 @@ public class RegisterFormController implements Initializable {
         }else {
             gender="female";
         }
-        User user = new User(username,password,gender);
+        User user = new User(0,username,password,gender);
         signUpUser(user);
     }
 
