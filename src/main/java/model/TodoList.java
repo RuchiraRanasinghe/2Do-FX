@@ -9,9 +9,10 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Task {
+public class TodoList {
+    private int taskid;
     private int userid;
     private String task;
-    private String datecreated;
-    private String description;
+    private Date datecreated;
+    private String discription;
 }
